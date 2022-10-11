@@ -1,19 +1,28 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import HomeBlog from '../HomeBlog/HomeBlog';
+import Course from '../Topics/Course';
 import './Home.css'
 const Home = () => {
-    const Topics = useLoaderData();
-    console.log(Topics);
-   const {name,id}=Topics;
-   console.log(name,id);
-    return (
-       <div>
-         <HomeBlog></HomeBlog>
-         <h1>Topics list {Topics.length}</h1>
+  const Topics = useLoaderData();
 
-       </div>
-    );
+
+  return (
+    <div>
+
+      <HomeBlog></HomeBlog>
+      <h1 className='quiz-header'>Quiz Categories</h1>
+
+      <div className="course-container">
+        {
+          Topics.data.map(topic => <Course
+            key={topic.id}
+            topic={topic}
+          ></Course>)
+        }
+      </div>
+    </div>
+  );
 };
 
 export default Home;

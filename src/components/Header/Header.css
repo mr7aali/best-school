@@ -5,6 +5,7 @@
     padding: 0 120px;
     padding-right: 8%;
     background-color: #2250F4;
+    box-shadow: -4px -11px 60px -10px rgba(0,0,0,0.75);
 }
 
 .logo-name h1 {

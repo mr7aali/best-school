@@ -1,0 +1,50 @@
+.course-list{
+  
+    height: 300px ;
+    width: 300px;
+    margin: 15px auto;
+    background-color: #F0F8FF;
+    border: 10px;
+    box-shadow: -4px -11px 60px -10px rgba(0,0,0,0.55);
+    
+}
+.course-list .img-div{
+        height: 230px;
+        width: 290px;
+        margin: 3px auto;
+        
+        background-color: rgb(71, 71, 71);
+        border-radius: 15px 0 15px 0;
+}
+.course-list .img-div img{
+    height: 100%;
+    width: 100%;
+   
+}
+.cart-bootm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8px;
+}
+.btn{
+    background-color: aliceblue;
+    border: none;
+}
+.btn a:hover{
+    background-color:#551A89 ;
+    border-radius: 5px 0 5px 0;
+    color: #F0F8FF;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+   
+    
+}
+.quiz-quntity{
+    font-size: 10px;
+    margin-left: 0;
+    color: red;
+}
