@@ -1,0 +1,36 @@
+.home-container{
+   
+    margin: 20px 120px;
+    display: flex;
+   border-radius: 0 0 25px 0;
+    background-color: aliceblue;
+}
+.home-container .picture-div{
+     height: 300px ;
+     width: 600px;
+    
+     margin-right: 50px;
+}
+.home-container .picture-div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px 0 25px 0 ;
+}
+.home-container .home-blog h2   {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.home-blog {
+   
+    height: 100px;
+    width: 100%;
+    
+}
+.home-container .home-blog p{
+    color: rgb(20, 18, 18);
+    font-size: 20px;
+    display: inline-block;
+    text-align: justify;
+    padding-right: 25px;
+
+}

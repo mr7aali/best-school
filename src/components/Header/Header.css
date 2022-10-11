@@ -1,0 +1,30 @@
+.nav-container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    padding-right: 8%;
+    background-color: #2250F4;
+}
+
+.logo-name h1 {
+    font-size: 30px;
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-name h1 span {
+    color: black;
+    font-size: 20px;
+}
+
+.nav-list a {
+    margin: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #DDDDDD;
+}
+.nav-list a:hover{
+    text-decoration: underline;
+    color: red;
+}
