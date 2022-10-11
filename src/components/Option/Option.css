@@ -1,0 +1,39 @@
+.Option-div {
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.Option-div:hover {
+    background-color: aliceblue;
+}
+
+.bg-red {
+    background-color: #F92600;
+    cursor: pointer;
+    border-radius: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-blue {
+    background-color: #3EC65D;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bg-red p {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+.bg-blue p {
+    color: white;
+    font-size: 20px;
+}

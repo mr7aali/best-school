@@ -1,0 +1,18 @@
+.single-question-div{
+    background-color: rgb(162, 198, 198);
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px 0 20px 0;
+    box-shadow: -4px -11px 60px -10px rgba(0,0,0,0.45);
+}
+.options-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.question-div h3{
+    font-size: 32px;
+    padding: 10px;
+}
