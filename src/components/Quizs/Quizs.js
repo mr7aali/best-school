@@ -1,9 +1,14 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 
 const Quizs = () => {
+    const quizs = useLoaderData();
+    console.log(quizs.data.questions);
     return (
         <div>
-            <h1>This is quiz page</h1>
+          {
+             quizs.data.questions.map(question=> <p>ali</p>)
+          }
         </div>
     );
 };

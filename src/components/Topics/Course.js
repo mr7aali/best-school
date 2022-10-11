@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Course.css"
 const Course = ({topic}) => {
-    console.log(topic);
+    // console.log(topic)
     const {name,total,logo,id}=topic;
     
     return (
