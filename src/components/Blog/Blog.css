@@ -17,3 +17,24 @@
     font-size: 30px;
     text-align: center;
 }
+
+
+
+@media only screen and (max-width:1250px){
+    .Blog-container{
+        padding: 50px 100px;
+    }
+    .Blog-container .Question h1{
+        padding-bottom: 0px;
+    }
+    .Blog-container .Question p{
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+}
+@media only screen and (max-width:565px){
+    .Blog-container{
+        padding: 50px 30px;
+    }
+}

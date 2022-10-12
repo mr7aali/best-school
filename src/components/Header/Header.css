@@ -29,3 +29,29 @@
     text-decoration: underline;
     color: red;
 }
+
+
+
+@media only screen and (max-width:1000px){
+    .nav-container{
+        
+        padding: 10px;
+        padding-right: 30px;
+    }
+}
+@media only screen and (max-width:580px){
+    .logo-name h1{
+       font-size: 10px;
+    }
+}
+@media only screen and (max-width:500px){
+    .logo-name h1{
+       display: none;
+    }
+    .nav-container{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
