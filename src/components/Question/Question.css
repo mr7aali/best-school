@@ -16,3 +16,14 @@
     font-size: 32px;
     padding: 10px;
 }
+.correctanser-header{
+    color: blue;
+}
+.correctanser-header span{
+    color: red;
+}
+.pre-shower-icon{
+    cursor: pointer;
+    background-color: azure;
+    
+}

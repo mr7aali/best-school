@@ -1,21 +1,25 @@
 import React, { useState } from 'react';
 import "./Option.css"
-const Option = ({ option,correctAnswer,ChgAnswerShower}) => {
+const Option = ({ option, correctAnswer, ChgAnswerShower }) => {
 
-     const [answerDivColor,setAnswerDivColor]= useState('bg-common');
-    const answerTester =(clickED)=>{    
-           if(correctAnswer===clickED){
+   
+    
+    const [answerDivColor, setAnswerDivColor] = useState('bg-common');
+    
+    // console.log(preShowerValue)
+    const answerTester = (clickED) => {
+        if (correctAnswer === clickED) {
             setAnswerDivColor('bg-blue')
-           }
-           else{
+        }
+        else {
             setAnswerDivColor('bg-red');
             ChgAnswerShower(true);
-           }
+        }
     }
 
     return (
-        <div onClick={()=>answerTester(option)} className={answerDivColor} >
-            
+        <div onClick={() => answerTester(option)} className={ answerDivColor} >
+
             <p>{option}</p>
         </div>
     );
