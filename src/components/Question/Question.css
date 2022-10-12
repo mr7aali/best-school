@@ -24,6 +24,16 @@
 }
 .pre-shower-icon{
     cursor: pointer;
-    background-color: azure;
+   
     
+    display: inline-block;
+    width: 100px;
+    margin-top: 15px;
+    
+}
+.heroIcon{
+    
+    
+    height: 50px;
+    width: 50px;
 }

@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import Option from '../Option/Option';
+import Icon from "react-hero-icon";
+
+
 import './Question.css'
 const Question = ({ question }) => {
     // console.log(question.question)
@@ -35,7 +38,8 @@ const Question = ({ question }) => {
             </div>
 
             <div className='pre-shower-icon' onClick={()=>preShowerFun(true)}>
-                <h2>Show</h2>
+                
+                <Icon className='heroIcon' icon="eye" type="solid" />
             </div>
 
             {
