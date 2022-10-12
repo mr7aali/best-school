@@ -104,3 +104,8 @@
         height: 700px;
     }
 }
+@media only screen and (max-width:600px){
+    .home-blog-container{
+        height: 900px;
+    }
+}
