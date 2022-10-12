@@ -1,27 +1,20 @@
 import React, { useState } from 'react';
 import "./Option.css"
-const Option = ({ option,correctAnswer}) => {
+const Option = ({ option,correctAnswer,ChgAnswerShower}) => {
 
-  
-    // const [answer,setAnswer]= useState();
-    let name;
-    
-    const answerTester =(clickED)=>{
-       
-        // setAnswer(correctAnswer===clickED);
-           // console.log(correctAnswer===clickED);
-            if(correctAnswer===clickED){
-                name='bg-blue';
-            }
-            else{
-                name='bg-red'
-            }
+     const [answerDivColor,setAnswerDivColor]= useState('bg-common');
+    const answerTester =(clickED)=>{    
+           if(correctAnswer===clickED){
+            setAnswerDivColor('bg-blue')
+           }
+           else{
+            setAnswerDivColor('bg-red');
+            ChgAnswerShower(true);
+           }
     }
-    
-
 
     return (
-        <div onClick={()=>answerTester(option)} className={'bg-common'}>
+        <div onClick={()=>answerTester(option)} className={answerDivColor} >
             
             <p>{option}</p>
         </div>

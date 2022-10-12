@@ -18,6 +18,9 @@
     align-items: center;
     justify-content: center;
 }
+.bg-common p{
+    font-size: 20px;
+}
 .bg-red {
     background-color: #F92600;
     cursor: pointer;
