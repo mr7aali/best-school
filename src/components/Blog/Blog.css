@@ -1,0 +1,19 @@
+.Blog-container{
+    
+    padding: 50px 150px;
+}
+.Blog-container .Question{
+    border-radius: 25px 0;
+    margin: 35px 0;
+    background-color: antiquewhite;
+    box-shadow: -4px -11px 60px -10px rgba(0,0,0,0.35);
+}
+.Blog-container .Question h1{
+     text-align: center;
+     padding: 50px;
+}
+.Blog-container .Question p{
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+}
